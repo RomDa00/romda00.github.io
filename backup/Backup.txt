@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romain Davy</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+                <a class="navbar-brand" href="">Romain Davy</a>
+                <a href="https://github.com/RomDa00" target="_blank"><i class="fab fa-github"></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <div class="mr-auto"></div>
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#About-Me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+      <section class="site-banner" id="Home">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 class="title-text">Hi, My name is</h3>
+              <h1 class="title-text">Romain Davy</h1>
+              <h4 class="title-text text-uppercase">Software Developer</h4>
+              <div class="site-buttons">
+                <div class="d-flex flex-row flex-wrap">
+                  <button onclick=location.href='mailto:romaindavy@gmail.com' type="button" class="btn button primary-button mr-4 text-uppercase" >Hire Me</button>
+                  <button onclick="openpdf()" type="button" class="btn button secondary-button mr-4 text-uppercase">Resume</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-area" id="About-Me">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-20">
+                    <div class="about-image">
+                        <img src="./imgs/IMG_1638_edited_cropped.jpg" alt="About us" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 about-title">
+                    <h2 class="text-uppercase pt-5">
+                        <span>About Me</span>
+                    </h2>
+                    <div class="paragraph py-4 w-75">
+                        <p class="para">
+                            A software developer based in Calgary, Alberta.
+                        </p>
+                        <p class="para">
+                          I enjoy coding projects whether that be websites, applications, or anything in between. 
+                          My goal is to always keep learning.
+                        </p>
+                        <p class="para">
+                          I studied Information Technology at the Southern Alberta Institute of Technology Where I
+                          majored in Software Development and graduated with a 3.52 GPA.
+                        </p>
+                        <p class="para">Here are a few technologies I've been working with recently:</p>
+                        <ul class="list">
+                          <li>Swift</li>
+                          <li>Dart</li>
+                          <li>Flutter</li>
+                          <li>TypeScript</li>
+                          <li>JavaScript</li>
+                          <li>Visual Basic (.Net)</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Experience-area" id="Experience">
+      <div class="section-experience">
+        <h1 class="text-black pb-3">Experience</h1>
+        <div class="container-fluid">
+
+            <div class="experience-JOB">
+              <div class="JOB">
+                <h2>
+                    <span>Danihel Group</span>
+                </h2>
+                <h4 class="pt-1">
+                  <span>Software Developer</span>
+                </h4>
+                <p>
+                  July 2021 - June 2024.
+                </p>
+                <ul>
+                  <li>Sole iOS developer (Swift) responsible for:</li>
+                    <ul>
+                      <li>Design and creation of modern but simple user interface with a focus to draw and retain a users attention.</li>
+                      <li>Coding and testing of new features such as user interaction feedback, cloud platform communication and data security.</li>
+                      <li>Deployment of new builds to the apple application store for multiple iOS applications.</li>
+                    </ul>
+                  <li>Reduced delay when retrieving data from cloud server resulting in faster mobile application load times.</li>
+                  <li>Developed all server-side API responses to ensure correct data was being delivered & received in a fast and secure manner.</li>
+                  <li>Acted as intermediary between the database and quality assurance teams to ensure API was functioning as intended.</li>
+                  <li>Used flutter framework to ensure same level feature richness across mobile devices regardless of platform.</li>
+                </ul>
+                <p>
+                  Technologies
+                </p>
+                <ul>
+                  <li>Swift</li>
+                  <li>Dart</li>
+                  <li>Flutter</li>
+                  <li>TypeScript</li>
+                  <li>JavaScript</li>
+                </ul>
+                <p>
+                  Tools
+                </p>
+                <ul>
+                  <li>Xcode</li>
+                  <li>Android Studio</li>
+                  <li>Visual Studio Code</li>
+                  <li>DBeaver</li>
+                  <li>Postman</li>
+                  <li>GitHub Desktop</li>
+                </ul>
+              </div>
+          </div>
+
+          <br>
+
+          <div class="experience-JOB">
+            <div class="JOB">
+              <h2>
+                <span>PBS Systems</span>
+              </h2>
+              <h4 class="pt-1">
+                <span>Software Developer</span>
+              </h4>
+                <p>
+                  April 2017 - June 2021.
+                </p>
+                <ul>
+                  <li>Developed program modules used by management software that catered to each clients specific requirements which could be changed upon request depending on their needs.</li>
+                  <li>Improved code completion time and readability through introduction of new data types such as tuples.</li>
+                  <li>Updated programs to work on new iterations of management software which allowed clients to experience a multitude of software and user interface improvements to ensure that they were operating as efficiently as they could.</li>
+                  <li>Reduced client workload by minimizing steps to complete a task thus allowing the client to increase productivity and sales.</li>
+                </ul>
+                <p>
+                  Technologies
+                </p>
+                <ul>
+                  <li>Visual Basic (.NET)</li>
+                </ul>
+                <p>
+                  Tools
+                </p>
+                <ul>
+                  <li>Visual Studio</li>
+                </ul>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="experience-JOB">
+            <div class="JOB">
+            <h2>
+              <span>Smart Labs LTD</span>
+            </h2>
+            <h4 class="pt-1">
+              <span>Software Developer Intern</span>
+            </h4>
+              <p>
+                September 2016 - April 2017.
+              </p>
+              <ul>
+                <li>Tasked with creation and maintenance of MySQL database including database triggers to log and manipulate data for later use by data analytics team for future product improvements.</li>
+                <li>Improved server-side latency via code optimizations by reducing the amount of time it takes for a specific action to be completed while still maintaining client requirements.</li>
+                <li>Implemented security measures such as salting and hashing of user passwords using SHA-256 to prevent user information from being readable in the case of a data breach.</li>
+                <li>Contributed to documentation of projects such as Class diagrams, Use case diagrams and other documents to ensure up to date project information for the rest of the development team and to ease the onboarding process for new developers. </li>
+              </ul>
+              <p>
+                Technologies
+              </p>
+              <ul>
+                <li>Java</li>
+                <li>J2EE</li>
+                <li>MySQL</li>
+              </ul>
+              <p>
+                Tools
+              </p>
+              <ul>
+                <li>NetBeans</li>
+                <li>MySQL Workbench</li>
+              </ul>
+            </div>
+          </div>
+
+      </div>
+    </section>
+    
+    <section class="projects" id="Projects">
+      <div class="container mt-5 section-projects">
+        <h1 class="text-black text-center pb-3">Projects</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1 d-flex align-items-stretch">
+            <div class="card">
+              <i class="fab fa-android fa-3x projects-android"></i>
+              <h3>Crypto Check</h3>
+              <p>Get up to date price on various cryptocurrencies.</p>
+              <ul class="list">
+                <li>Java</li>
+                <li>Android Studio</li>
+              </ul> 
+              <a href="https://play.google.com/store/apps/details?id=crypto.romain.cryptocheck&hl=en" target="_blank" class="stretched-link"></a>
+            </div>
+          </div>
+            <div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1 d-flex align-items-stretch">
+              <div class="card">
+                <i class="fab fa-java fa-3x projects-java"></i>
+                <h3>Tic Tac Toe</h3>
+                <p>Network enabled Tic Tac Toe game coded in Java.</p>
+                <ul class="list">
+                  <li>Java</li>
+                  <li>Eclipse</li>
+                </ul> 
+                <a href="https://github.com/RomDa00/Tic-Tac-Toe-Game" target="_blank" class="stretched-link"></a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1 d-flex align-items-stretch">
+            <div class="card">
+              <i class="fab fa-python fa-3x projects-python"></i>
+              <h3>Text Editor</h3>
+              <p>Simple text editor using GUI created with TkInter</p>
+              <ul class="list">
+                <li>Python</li>
+                <li>Visual Studio Code</li>
+              </ul> 
+              <a href="https://github.com/RomDa00/Python-Text-Manager" target="_blank" class="stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-xs-12 pl-1 pr-1 d-flex align-items-stretch">
+            <div class="card">
+              <i class="fab fa-medium fa-3x projects-book"></i>
+              <h3>Medium</h3>
+              <p>Tutorials for technologies like Elixir & MongoDB.</p>
+              <ul class="list">
+                <li>Text</li>
+              </ul> 
+              <a href="https://medium.com/@romaindavy" target="_blank" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>         
+      </div>
+    </section>
+
+    <section class="contact-area" id="Contact">
+      <div class="section-contact">
+        <div class="container">
+          <div class="row contact-text">
+              <div class="paragraph py-4 w-100">
+                <h2 class="text-center">
+                  <span>Get In Touch</span>
+                </h2>
+                <h3 class="text-center">
+                  <span>I am currently looking for new opportunities and my inbox is always open.</span>
+                </h3>
+                <div class="contact-buttons">
+                  <button onclick=location.href='mailto:romaindavy@gmail.com' type="button" class="btn button primary-button mr-4 text-uppercase">Email</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+    <footer>
+      <p class="text-center">Romain Davy Copyright &copf; 2020</p>
+    </footer>
+    <script src="/js/jquery.3.5.1.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/js/animation.js"></script>
+    <script src="/js/smooth.js"></script>
+    <!-- Hydra Dominatus --> 
+</body>
+</html>
